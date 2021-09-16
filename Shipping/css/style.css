@@ -1,0 +1,248 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #1C2C40;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 400;
+}
+input,textarea,select{
+	font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+	font-weight: 400;
+}
+
+a{
+	color: #1C2C40;
+}
+a:hover,.submit:hover{
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: "Circular-Std-Regular", Arial;
+	font-weight: 400;
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+	max-width:100%;
+}
+@font-face {
+	font-family: 'Circular-Std-Regular';
+	src:url('../fonts/CircularStd-Regular.woff2') format('woff2');
+	src:url('../fonts/CircularStd-Regular.woff') format('woff');
+	font-style: normal;
+}
+@font-face {
+    font-family: 'Circular-Std-Bold';
+    src: url("../fonts/CircularStd-Bold.woff2") format("woff2");
+    src: url("../fonts/CircularStd-Bold.woff") format("woff");
+    font-style: normal
+}
+
+header {
+	width: 100%;
+}
+header section.wrapper {
+
+}
+header section.head {
+	display: flex;
+	height: 100px;
+	align-items: center;
+}
+header section.head div.head-left {
+	width: 20%;
+
+}
+header section.head div.head-left h1 {
+	width: 100px;
+	margin-left: 60px;
+}
+header section.head div.head-left h1 a {
+
+}
+header section.head div.head-left h1 a img {
+	display: block;
+	width: 100%;
+}
+header section.head div.head-mid {
+	width: 60%;
+}
+header section.head div.head-mid ul {
+	display: flex;
+	justify-content: center;
+
+}
+header section.head div.head-mid ul li {
+	margin-right: 40px;
+}
+header section.head div.head-mid ul li a {
+	color: #7d7e91;
+	font-family: 'Circular-Std-Bold';
+	font-size: 20px;
+}
+header section.head div.head-right {
+	width: 20%;
+}
+header section.head div.head-right ul {
+	display: flex;
+	justify-content: flex-end;
+}
+header section.head div.head-right ul li {
+
+}
+header section.head div.head-right ul li a {
+	color: #7d7e91;
+	font-family: 'Circular-Std-Bold';
+	font-size: 20px;
+	margin-right: 40px;
+}
+header section.head div.head-right ul li a.button {
+	padding: 12px 24px;
+	border: 2px solid #7d7e91;
+	border-radius: 25px;
+	color: #175cff;
+}
+#spotlight {
+	width: 100%;
+
+}
+#spotlight div.spot-left {
+	width: 45%;
+	display: inline-block;
+	margin-left: 130px;
+	margin-top: 100px;
+}
+#spotlight div.spot-left h1 {
+	font-size: 87px;
+	font-family: 'Circular-Std-Bold';
+	color: #0a083a;
+	margin-bottom: 50px;
+}
+#spotlight div.spot-left p {
+	
+	color: #7d7e91;
+	font-family: 'Circular-Std-Bold';
+	margin-bottom: 50px;
+	font-size: 21px;
+}
+#spotlight div.spot-left p span.label {
+	color: #0a083a;
+}
+#spotlight div.spot-left a.button {
+	
+	padding: 12px 24px;
+	border: 1px solid #175cff;
+	border-radius: 25px;
+	background: #175cff;
+	color: #ffff;
+}
+#spotlight div.spot-left ul {
+	margin-top: 50px;
+}
+#spotlight div.spot-left ul li {
+	display: flex;
+}
+#spotlight div.spot-left ul li img {
+	width: 25px;
+	height: 25px;
+}
+#spotlight div.spot-left ul li p {
+	margin-bottom: 20px;
+}
+#spotlight div.spot-right {
+	margin-top: 25px;
+	width: 50%;
+	display: inline-block;
+	position: absolute;
+	margin-left: 130px;
+	height: 100vh;
+}
+#spotlight div.spot-right div.img-container {
+	width: 400px;
+	position: relative;
+	z-index: +1;
+}
+#spotlight div.spot-right div.img-container img {
+	width: 100%;
+}
+#spotlight div.spot-right div.bg {
+	position: relative;
+	background: #e3e3e3;
+	width: 400px;
+	height: 565px;
+	z-index: -1;
+	top: -457px;
+    left: 114px;
+}
+#spotlight div.spot-right div.mesh {
+	position: relative;
+	z-index: -1;
+	top: -737px;
+    left: 232px;
+}
+#spotlight div.spot-right div.mesh img {
+
+}
+#spotlight div.spot-right div.content {
+	width: 40%;
+	height: 180px;
+	position: relative;
+	background: #0a083a;
+	z-index: 2;
+    top: -957px;
+    left: -75px;
+}
+#spotlight div.spot-right div.content div.quote {
+	position: relative;
+	z-index: 3;
+    top: 0px;
+    left: -27px;
+}
+#spotlight div.spot-right div.content div.quote img {
+
+}
+#spotlight div.spot-right div.content p {
+	margin: 0 auto;
+	width: 80%;
+	text-align: center;
+	color: #ffff;
+}
